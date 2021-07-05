@@ -1,0 +1,62 @@
+/* general */
+img {
+    width: 300px;
+    height: 300px;
+}
+
+body {
+    background-color: lemonchiffon;
+}
+
+
+/* Animated Carousel */
+h1 {
+    text-align: center;
+}
+
+#animal {
+    border: 1px solid;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#imageSliderAnimal {
+    display: flex;
+    transform: translateX(000px);
+    animation: movement 20s infinite;
+}
+
+@keyframes movement {
+    0% { transform: translateX(000px);}    
+    10% { transform: translateX(-300px);}    
+    20% { transform: translateX(-600px);}    
+    30% { transform: translateX(000px);}    
+    40% { transform: translateX(-300px);}    
+    50% { transform: translateX(-600px);}    
+}
+
+
+/* JavaScript Carousel */
+h2 {
+    text-align: center;
+}
+
+#nature {
+    border: 1px solid;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#imageSliderNature {
+    display: flex;
+}
+
+#buttons {
+    margin: 0 auto;
+    display: block;
+    width: 9%;
+}
